@@ -197,6 +197,11 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery
 
+# HIDL
+PRODUCT_PACKAGES += \
+    hwservicemanager \
+    libutils.vendor
+
 # Hotword Enrollement
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
